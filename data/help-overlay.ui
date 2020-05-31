@@ -2,6 +2,7 @@
 <interface>
   <object class="GtkShortcutsWindow" id="help_overlay">
     <property name="modal">true</property>
+    <property name="resizable">true</property>
     <child>
       <object class="GtkShortcutsSection">
         <property name="visible">true</property>
@@ -112,36 +113,30 @@
               <object class="GtkShortcutsShortcut">
                 <property name="visible">true</property>
                 <property name="accelerator">&lt;Primary&gt;S</property>
-                <property name="title" translatable="yes" context="shortcut window">Send stop signal</property>
+                <property name="title" translatable="yes" context="shortcut window">Stop process</property>
               </object>
             </child>
             <child>
               <object class="GtkShortcutsShortcut">
                 <property name="visible">true</property>
                 <property name="accelerator">&lt;Primary&gt;C</property>
-                <property name="title" translatable="yes" context="shortcut window">Send continue signal</property>
+                <property name="title" translatable="yes" context="shortcut window">Continue process</property>
               </object>
             </child>
             <child>
               <object class="GtkShortcutsShortcut">
                 <property name="visible">true</property>
                 <property name="accelerator">&lt;Primary&gt;E</property>
-                <property name="title" translatable="yes" context="shortcut window">Send End signal</property>
+                <property name="title" translatable="yes" context="shortcut window">End process</property>
               </object>
             </child>
             <child>
               <object class="GtkShortcutsShortcut">
                 <property name="visible">true</property>
                 <property name="accelerator">&lt;Primary&gt;K</property>
-                <property name="title" translatable="yes" context="shortcut window">Send Kill signal</property>
+                <property name="title" translatable="yes" context="shortcut window">Kill process</property>
               </object>
             </child>
-          </object>
-        </child>
-        <child>
-          <object class="GtkShortcutsGroup">
-            <property name="visible">true</property>
-            <property name="title" translatable="yes" context="shortcut window">File Systems</property>
           </object>
         </child>
       </object>

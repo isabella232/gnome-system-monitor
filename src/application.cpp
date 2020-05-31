@@ -398,6 +398,7 @@ void GsmApplication::on_startup()
     add_accelerator("<Primary>k", "win.send-signal-kill", g_variant_new_int32 (SIGKILL));
     add_accelerator("<Primary>m", "win.memory-maps", NULL);
     add_accelerator("<Primary>o", "win.open-files", NULL);
+    add_accelerator("<Primary>question", "win.show-help-overlay", NULL);
     add_accelerator("<Alt>Return", "win.process-properties", NULL);
     add_accelerator("<Primary>f", "win.search", g_variant_new_boolean (TRUE));
     add_accelerator("F1", "app.help", NULL);
