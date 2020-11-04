@@ -730,6 +730,7 @@ create_main_window (GsmApplication *app)
 
     GActionEntry win_action_entries[] = {
         { "about", on_activate_about, NULL, NULL, NULL },
+        { "show-help-overlay", on_activate_keyboard_shortcuts,  NULL, NULL, NULL},
         { "search", on_activate_search, "b", "false", NULL },
         { "send-signal-stop", on_activate_send_signal, "i", NULL, NULL },
         { "send-signal-cont", on_activate_send_signal, "i", NULL, NULL },
@@ -738,7 +739,6 @@ create_main_window (GsmApplication *app)
         { "priority", on_activate_priority, "i", "@i 0", change_priority_state },
         { "memory-maps", on_activate_memory_maps, NULL, NULL, NULL },
         { "open-files", on_activate_open_files, NULL, NULL, NULL },
-        { "show-help-overlay", on_activate_keyboard_shortcuts, NULL, NULL, NULL },
         { "process-properties", on_activate_process_properties, NULL, NULL, NULL },
         { "refresh", on_activate_refresh, NULL, NULL, NULL },
         { "show-page", on_activate_radio, "s", "'resources'", change_show_page_state },
