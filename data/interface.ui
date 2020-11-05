@@ -197,6 +197,7 @@
                     <property name="hexpand">True</property>
                     <property name="vexpand">True</property>
                     <property name="border-width">8</property>
+                    <property name="margin-bottom">10</property>
                     <property name="orientation">vertical</property>
                     <property name="spacing">10</property>
                     <child>
@@ -237,6 +238,7 @@
                           <object class="GtkBox" id="cpu_header">
                             <property name="visible">True</property>
                             <property name="can-focus">False</property>
+                            <property name="margin-start">12</property>
                             <child>
                               <object class="GtkLabel" id="cpu_label">
                                 <property name="visible">True</property>
@@ -338,6 +340,7 @@
                         <child type="label">
                           <object class="GtkBox" id="mem_header">
                             <property name="visible">True</property>
+                            <property name="margin-start">12</property>
                             <property name="can-focus">False</property>
                             <child>
                               <object class="GtkLabel" id="mem_label">
@@ -480,6 +483,7 @@
                         <child type="label">
                           <object class="GtkBox" id="net_header">
                             <property name="visible">True</property>
+                            <property name="margin-start">12</property>
                             <property name="can-focus">False</property>
                             <child>
                               <object class="GtkLabel" id="net_label">
