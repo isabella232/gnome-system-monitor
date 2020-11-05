@@ -197,7 +197,7 @@
                     <property name="hexpand">True</property>
                     <property name="vexpand">True</property>
                     <property name="border-width">8</property>
-                    <property name="margin-bottom">10</property>
+                    <property name="margin-bottom">6</property>
                     <property name="orientation">vertical</property>
                     <property name="spacing">10</property>
                     <child>
@@ -213,7 +213,7 @@
                             <property name="hexpand">True</property>
                             <property name="vexpand">True</property>
                             <property name="orientation">vertical</property>
-                            <property name="margin_top">6</property>
+                            <property name="margin-top">6</property>
                             <property name="spacing">6</property>
                             <child>
                               <object class="GtkGrid" id="cpu_table">
@@ -279,7 +279,7 @@
                             <property name="hexpand">True</property>
                             <property name="vexpand">True</property>
                             <property name="orientation">vertical</property>
-                            <property name="margin_top">6</property>
+                            <property name="margin-top">6</property>
                             <property name="spacing">6</property>
                             <child>
                               <object class="GtkGrid" id="mem_table">
@@ -383,7 +383,7 @@
                             <property name="hexpand">True</property>
                             <property name="vexpand">True</property>
                             <property name="orientation">vertical</property>
-                            <property name="margin_top">6</property>
+                            <property name="margin-top">6</property>
                             <property name="spacing">6</property>
                             <child>
                               <object class="GtkGrid" id="net_table">
